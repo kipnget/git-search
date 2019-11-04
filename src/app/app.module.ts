@@ -8,8 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { DateCountPipe } from './date-count.pipe';
-import { SearchFormComponent } from './search-form/search-form/search-form.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SearchFormComponent } from './search-form/search-form.component';
 
 
 
@@ -20,9 +20,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     FooterComponent,
     HomeComponent,
     DateCountPipe,
-    SearchFormComponent,
     NotFoundComponent,
-    
+    SearchFormComponent
     
     
   ],

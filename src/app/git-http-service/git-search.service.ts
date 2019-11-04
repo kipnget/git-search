@@ -6,6 +6,8 @@ import { promise } from 'protractor';
 import { resolve, reject } from 'q';
 import { from } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { SearchFormComponent } from '../search-form/search-form.component';
+
 
 
 @Injectable({

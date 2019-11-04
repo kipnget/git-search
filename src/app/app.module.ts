@@ -5,6 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import { DateCountPipe } from './date-count.pipe';
+
+
 
 
 @NgModule({
@@ -12,13 +17,14 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     FooterComponent,
     HomeComponent,
+    DateCountPipe,
     
     
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,HttpClientModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
